@@ -1,0 +1,54 @@
+.testimonial {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 50px; */
+    width: 50%;
+    height: 100%;
+  }
+  
+  .testimonial-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .testimonial-text {
+    display: block;
+    align-items: center;
+    max-width: 500px;
+    margin-right: 30px;
+    display: flex;
+    position: absolute;
+    
+  }
+  
+  .quote {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+
+  .author {
+    margin-top: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .stars {
+    color: #00b894;
+  }
+  
+  .testimonial-image .student-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 0px solid;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
